@@ -1,6 +1,6 @@
 {
   "name": "make-react-component-skeleton",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "",
   "main": "./lib/app.js",
   "bin": {
