@@ -13,11 +13,13 @@ $ npm install -g make-react-component-skeleton
 
   Options:
 
-    -n, --name [name]  component name to be created. (default: ExampleComponent)
-    -t, --type [type]  component type to be created. "class" or "function" (default: class)
-    -p, --path [path]  path where component will be created. (default: ./)
-    -v, --version      output the version number
-    -h, --help         output usage information
+    -n, --name [name]        component name to be created. (default: ExampleComponent)
+    -t, --type [type]        component type to be created. "class" or "function" (default: class)
+    -p, --path [path]        path where component will be created. (default: ./)
+    -j, --jstype [jstype]    component file extension to be created. (default: jsx)
+    -c, --csstype [csstype]  style file extension to be created. (default: scss)
+    -v, --version            output the version number
+    -h, --help               output usage information
 ```
 
 ### example
@@ -34,7 +36,7 @@ $ mkcpnt -n Input
 Input
 |-- Input.jsx
 |-- Input.scss
-|-- index.jsx
+|-- index.js
 ```
 
 - jsx -- class type
@@ -98,4 +100,19 @@ Input.defaultProps = {
 };
 
 export default Input;
+```
+
+#### file extension example
+
+```bash
+$ mkcpnt -n Input -j js -c css
+```
+
+- result
+
+```
+Input
+|-- Input.js
+|-- Input.css
+|-- index.js
 ```
