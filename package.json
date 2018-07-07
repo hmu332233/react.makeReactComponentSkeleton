@@ -1,6 +1,6 @@
 {
   "name": "make-react-component-skeleton",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "main": "./lib/app.js",
   "bin": {
@@ -22,5 +22,6 @@
   "homepage": "https://github.com/hmu332233/react.makeReactComponentSkeleton#readme",
   "dependencies": {
     "commander": "^2.16.0"
-  }
+  },
+  "keywords": ["react", "skeleton", "makeReactComponent"]
 }
