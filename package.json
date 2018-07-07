@@ -4,7 +4,7 @@
   "description": "",
   "main": "./lib/app.js",
   "bin": {
-    "mkcmpnt": "bin/app.js"
+    "mkcpnt": "bin/app.js"
   },
   "preferGlobal": true,
   "scripts": {

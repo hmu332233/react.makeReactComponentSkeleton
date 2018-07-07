@@ -9,7 +9,7 @@ $ npm install -g make-react-component-skeleton
 
 ### usage
 ```
- Usage: mkcmpnt [options]
+ Usage: mkcpnt [options]
 
   Options:
 
@@ -25,7 +25,7 @@ $ npm install -g make-react-component-skeleton
 #### basic example
 
 ```bash
-$ mkcmpnt -n Input
+$ mkcpnt -n Input
 ```
 
 - Structure of the created directory
@@ -76,7 +76,7 @@ export default Input;
 #### function example
 
 ```bash
-$ mkcmpnt -n Input -t function
+$ mkcpnt -n Input -t function
 ```
 Structure of the created directory is same
 
