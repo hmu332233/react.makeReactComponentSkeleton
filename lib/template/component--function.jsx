@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styles from './[COMPONENT_NAME].scss';
+import styles from './[COMPONENT_NAME].[CSS_EXTENTION]';
 
 const [COMPONENT_NAME] = props => {
   return (
