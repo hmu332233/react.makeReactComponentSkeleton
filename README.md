@@ -19,6 +19,7 @@ $ npm install -g make-react-component-skeleton
     -j, --jstype [jstype]    component file extension to be created. (default: jsx)
     -c, --csstype [csstype]  style file extension to be created. (default: scss)
     -v, --version            output the version number
+    -S, --single             if include this, only component is made
     -h, --help               output usage information
 ```
 
